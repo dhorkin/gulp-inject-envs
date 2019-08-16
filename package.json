@@ -13,9 +13,9 @@
     "index.js"
   ],
   "devDependencies": {
-    "standard": "^12.0.1"
+    "standard": "^13.1.0"
   },
   "dependencies": {
-    "gulp-replace-task": "^0.11.0"
+    "gulp-replace-task": "github:dhorkin/gulp-replace-task#5fd055c"
   }
 }
