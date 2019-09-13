@@ -16,6 +16,8 @@ module.exports = function injectEnvs (envVars = {}, { prefix = 'ENV::', warn = t
             } else {
               throw new Error(`Environment not provided for ${current}`)
             }
+            // neglecting to return (or returning undefined/null) produces 'undefined' (i.e. string) which is not falsy
+            return ''
           } else {
             return val
           }
